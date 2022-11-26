@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+}
+.all{
+    height: 1059px;
+    width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    background-image: url(./images-3/bg.png);
+    background-repeat: no-repeat;
+}
+.header{
+    height: 70px;
+    width: 600px;
+    /*background-color: blueviolet;*/
+    margin-top: 19px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.out{
+    width: 70px;
+    height: 70px;
+}
+.header-text{
+    width: 127px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 32px;
+    font-weight: bolder;
+}
+.about{
+    width: 70px;
+    height: 70px;
+}
+.addphoto{
+    position: relative;
+    margin: 100px auto 0;
+    width: 148px;
+    height: 148px;
+    background-image: url(./images-3/Shape\ 15.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.text-photo{
+    position: absolute;
+    top: 98px;
+    left: 36px;
+    width: 74px;
+    height: 20px;
+    color: #c1d8e3;
+    font-size: 20px;
+
+}
+.main{
+    height: 336px;
+    width: 445px;
+    /*background-color: chartreuse;*/
+    position: absolute;
+    /*overflow: hidden;*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.information{
+    position: relative;
+    height: 84px;
+    width: 445px;
+   /* border: 2px solid blue;*/
+    outline: none;
+    font-size: 26px;
+    color: #c1d8e3;
+    text-align: left;
+    line-height: 84px;
+    border-bottom: 2px solid #8da1c4;
+}
+#password{
+    position: relative;
+    height: 84px;
+    width: 445px;
+    outline: none;
+    font-size: 26px;
+    color: #c1d8e3;
+    text-align: left;
+    line-height: 84px;
+    border-bottom: 2px solid #8da1c4;
+}
+.show{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 84px;
+    width: 65px;
+    color: #3cffb5;
+    font-size: 26px;
+}
+.signup{
+    height: 72px;
+    width: 444px;
+    background-color: #fff;
+    margin: 400px auto;
+    border-radius: 36px;
+    color: #706d9f;
+    font-size: 33px;
+    text-align: center;
+    line-height: 72px;
+    font-weight: bold;
+}
+.text-1{
+    line-height: 72px;
+    color: #fff;
+    font-size: 23px;
+
+}
+.text-2{
+    line-height: 72px;
+    color: #3dfcb4;
+    font-size: 23px;
+}
+.footer{
+    height: 72px;
+    width: 600px;
+    position: absolute;
+    bottom: 175px;
+    text-align: center;
+}
+.firstname,.lastname,.email,.password{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 28px;
+    width: 445px;
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+}
